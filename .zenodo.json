@@ -1,0 +1,27 @@
+{
+  "title": "Verificação independente da eleição presidencial de 2026: o processo eleitoral do início ao fim e a conferência dos dados públicos de todas as urnas do Brasil",
+  "description": "<p>Estudo independente, sem vínculo com o Tribunal Superior Eleitoral, partidos ou candidaturas, que verifica se a eleição presidencial brasileira de 2026 (1º e 2º turno) apresenta sinais de fraude detectáveis nos dados públicos do TSE.</p><p>O estudo descreve o processo eleitoral do cadastro à totalização e verifica os arquivos de cerca de 499 mil seções por turno: testes forenses no resultado oficial; reconstrução de 253 milhões de votos a partir dos logs das urnas; análise da habilitação de eleitores sem biometria; e conferência dos hashes SHA-512 e do conteúdo dos Boletins de Urna (BU), dos Registros Digitais do Voto (RDV) e dos arquivos de assinatura.</p><p><b>Resultados:</b> os arquivos das urnas conferem entre si e com o resultado oficial, voto por voto, em todas as seções em que foram publicados, e os testes forenses não indicam manipulação das contagens. Foram identificados 13 achados, nenhum deles indicando voto alterado. O mais grave é uma brecha de processo: a liberação manual do voto pelo mesário com digital fora do cadastro, que atingiu de 2,8 a 3,2 milhões de votos e não pode ser auditada com os dados públicos. Há ainda um limite de fundo: o software da urna, que nenhum dado publicado consegue testar.</p><p><b>Arquivos:</b> estudo (PDF); hashes do PDF (SHA3-512, SHA-512, BLAKE2b-512, SHA-256); manifesto SHA3-512 de 404 arquivos; código-fonte da análise (codigo.zip); resultados intermediários (resultados.zip).</p>",
+  "language": "por",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "urna eletrônica",
+    "eleições 2026",
+    "auditoria eleitoral",
+    "Boletim de Urna",
+    "Registro Digital do Voto",
+    "biometria",
+    "forense eleitoral",
+    "Tribunal Superior Eleitoral",
+    "election auditing",
+    "electronic voting",
+    "Brazil"
+  ],
+  "upload_type": "publication",
+  "publication_type": "report",
+  "notes": "Integridade: SHA3-512 do PDF = 3999801e2be95431fd762d70c8cb9398d38040fcef1d1f5940e8602323805f95ec251a4c2d3338b39041f73fa9fb44588968ed70bcf0624107b68c48263e05d1. Dados de origem: TSE, Portal de Dados Abertos (votação por seção 2026) e arquivos de urna (cdn.tse.jus.br, arqurnatot), versões de 22/10/2026 (1º turno), 26/10/2026 (2º turno) e 03/11/2026 (1º turno MA e MG, 2º turno SP).",
+  "creators": [
+    {
+      "name": "Nascimento, Iago Rocha"
+    }
+  ]
+}
